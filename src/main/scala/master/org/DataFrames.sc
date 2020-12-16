@@ -19,3 +19,4 @@ val df = neo.pattern("Person",Seq("KNOWS"),"Person").partitions(12).batch(100).l
 //   => org.apache.spark.sql.DataFrame = [id: bigint]
 
 // TODO loadRelDataFrame
+
