@@ -1,6 +1,5 @@
 import org.apache.spark.{SparkConf, SparkContext}
 import org.neo4j.spark._
-import org.graphframes._
 
 val conf : SparkConf = new SparkConf().setAppName("InitSpark").setMaster("local[*]")
 conf.set("spark.neo4j.bolt.url","bolt://10.20.0.157:7787")
